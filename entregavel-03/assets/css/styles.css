@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body{
+    background-color: #faeff5;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 13.5px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    margin: -7px;
+    color:#2a5252;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:#132828;
+}
+
+#mapa{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#cantores{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    border-radius: 250px;
+    height: 200px;
+    width: 200px;
+}
+
+img:hover { 
+    transform: scale(1.1);
+}
+
+button{
+    font-family: 'Libre Baskerville', serif;
+    background-color: #e3e3e3;
+    color: #2a5252;
+    border-radius: 8px;
+    border-width: 0;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+a:link {
+    color:#2b2a2a;
+    text-decoration:none;
+}
+
+a:visited {
+    color:#7e7e7e;
+    text-decoration:none;
+}
+
